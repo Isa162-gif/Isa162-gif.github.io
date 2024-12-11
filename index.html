@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+     integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous"
+      referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="style.css">
+    <title>Operaciones</title>
+</head>
+
+<body>
+    <font size=8><center>La aritmetica</center></font>
+    <font size=6><center>¿Que es?</center></font>
+    <font size=4><center>La aritmética es una rama de las matemáticas encargada del estudio de los números y las operaciones básicas que se pueden
+         realizar con ellos, como sumar, restar, multiplicar y dividir. A través de la aritmética podemos hacer cálculos y resolver ecuaciones simples, 
+         aprender a contar, medir, comparar y clasificar objetos y cantidades.La aritmética ejerce como una base sólida para el aprendizaje de 
+         otras disciplinas matemáticas como el álgebra o la geometría. Además, existen múltiples situaciones de la vida diaria donde podemos aplicar la aritmética, como calcular cantidades y tiempos.</center></font>
+    <font size=6><center>Operaciones aritméticas</center></font>
+    <font size=4><center>Las operaciones aritméticas son las diversas combinaciones que se efectúan con los números. Se clasifican en operaciones aritméticas directas (suma, multiplicación y potenciación) e indirectas (resta, división, radicación y logarítmica).</center></font>
+    <font size=6><center>Suma o adicion  (+)</center></font>
+    <font size=4><center>La suma es la operación aritmética que consiste en la adición de dos o más números para obtener un resultado. Se representa mediante el símbolo más (+) y se puede utilizar para calcular una cantidad total de objetos o números, como por ejemplo a + b = c.<br>
+        <br>
+        Ejemplos<br>
+        7 + 2 = 9<br>
+        4 + 2 + 3 = 9</center></font><br>
+    <font size=6><center>Resta o sustracción (-)</center></font>
+    <font size=4><center>La resta es la operación que se utiliza para determinar la diferencia entre dos números y se representa mediante el símbolo menos (-), como por ejemplo a - b = c.<br>
+        Ejemplos <br>
+
+        5 - 3 = 2 <br>
+        12 - 4 = 8 <br>
+
+    <font size=6><center>Multiplicación (×, ·, *)</center></font>
+    <font size=4><center>La multiplicación es una operación que se utiliza para encontrar el producto de dos factores (multiplicando y multiplicador). Consiste en la suma de un mismo número las veces que indique el multiplicador (3 × 2 = 3 + 3). Se representa mediante un símbolo de aspa (×), un punto (·) o un asterisco (*), como por ejemplo en a × b = p. <br>
+
+        Ejemplos <br>
+        
+        3 × 4 = 12<br>
+        2 * 3 = 6 <br></center></font>
+
+    <font size=6><center>Division (÷, /)</center></font>
+    <font size=4><center>La división es la operación aritmética que se utiliza para dividir un número en partes iguales. Se representa con un número base (dividendo) que es dividido por otro número (divisor) cuyo resultado es llamado cociente.
+        La división es la operación inversa de la multiplicación, por lo que, para comprobar si una división es correcta, podemos recurrir a la multiplicación. Por ejemplo, 6 ÷ 2 = 3 y si invertimos la operación sería 3 x 2 = 6, la división es correcta. <br>
+        
+        Ejemplos<br>
+        
+        9 ÷ 3 = 3<br>
+        8 ÷ 4 = 2<br>
+    </center></font><br>
+
+    <font size=6><center>A continuacion puedes practicar con este juego</center></font>
+    <br>
+    <br>
+    <div class="container">
+        <h2>Ejercicios de Operaciones Matematicas</h2>
+        <section class="container-operadores">
+            <button id="suma" onclick="btnSumar()">
+                <i class="fa-solid fa-plus"></i>
+            </button>
+            <button id="resta" onclick="btnResta()">
+                <i class="fa-solid fa-minus"></i>
+            </button>
+            <button id="producto" onclick="btnProducto()">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+            <button id="division" onclick="btnDivision()">
+                <i class="fa-solid fa-divide"></i>
+            </button>
+        </section>
+
+        <section class="container-operacion">
+            <span id="num1"></span>
+            <span id="operacion"> + </span>
+            <span id="num2"></span>
+            <span> = </span>
+            <input type="text" id="respuesta_usuario">
+            <button id="corregir" onclick="corregir()">Corregir</button>
+
+        </section>
+
+        <section id="msj_correccion">
+
+        </section>
+    </div>
+
+    <script src="java.js"></script>
+</body>
+
+</html>
